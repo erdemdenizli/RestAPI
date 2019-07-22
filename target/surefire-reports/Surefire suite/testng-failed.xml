@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="RestAPI.JSON.Add_Delete_Test">
+        <methods>
+          <include name="addDeleteData"/>
+          <include name="loadData"/>
+        </methods>
+      </class> <!-- RestAPI.JSON.Add_Delete_Test -->
+      <class name="RestAPI.XML.Post_Test">
+        <methods>
+          <include name="postData"/>
+        </methods>
+      </class> <!-- RestAPI.XML.Post_Test -->
+      <class name="RestAPI.XML.Get_Test">
+        <methods>
+          <include name="getData"/>
+        </methods>
+      </class> <!-- RestAPI.XML.Get_Test -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

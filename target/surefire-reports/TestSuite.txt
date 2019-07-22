@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 6.312 s <<< FAILURE! - in TestSuite
+postData(RestAPI.XML.Post_Test)  Time elapsed: 0.744 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected content-type "XML" doesn't match actual content-type "application/json; charset=UTF-8".
+
+	at RestAPI.XML.Post_Test.postData(Post_Test.java:46)
+
+getData(RestAPI.XML.Get_Test)  Time elapsed: 0.852 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+XML path results[0].name doesn't match.
+Expected: Sydney
+  Actual: 
+
+	at RestAPI.XML.Get_Test.getData(Get_Test.java:24)
+
+addDeleteData(RestAPI.JSON.Add_Delete_Test)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.IllegalArgumentException: body cannot be null
+	at RestAPI.JSON.Add_Delete_Test.addDeleteData(Add_Delete_Test.java:48)
+

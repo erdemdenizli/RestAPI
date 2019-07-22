@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-07-22T05:54:27Z" name="Default suite" finished-at="2019-07-22T05:54:31Z" duration-ms="3312">
+    <groups>
+    </groups>
+    <test started-at="2019-07-22T05:54:27Z" name="Default test" finished-at="2019-07-22T05:54:31Z" duration-ms="3312">
+      <class name="RestAPI.JSON.Get_Test">
+        <test-method signature="getData()[pri:0, instance:RestAPI.JSON.Get_Test@2925bf5b]" started-at="2019-07-22T05:54:27Z" name="getData" finished-at="2019-07-22T05:54:31Z" duration-ms="3289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+      </class> <!-- RestAPI.JSON.Get_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
